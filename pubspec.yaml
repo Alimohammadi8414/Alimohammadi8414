@@ -1,0 +1,81 @@
+name: vesam
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+
+ 
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.0.0
+  flutter_svg: ^2.0.17
+  dio: ^5.8.0+1
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  
+  
+  carousel_slider: ^5.0.0
+  smooth_page_indicator: ^1.2.1
+  json_annotation: ^4.8.1
+  cached_network_image: ^3.4.0
+  persian_number_utility: ^1.1.4
+  bloc: ^9.0.0
+  meta: ^1.16.0
+  shared_preferences: ^2.5.3
+  connectivity_plus: ^6.0.0
+  shamsi_date: ^1.1.0
+  hive: ^2.2.3
+  hive_flutter: 
+  
+  url_launcher: ^6.3.1
+  app_links: ^6.4.0
+  
+  
+  
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: 
+  
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: Yekan 
+      fonts:
+        - asset: assets/fonts/yekan_bakh_bold.ttf
+          weight: 700
+        - asset: assets/fonts/yekan_bakh_medium.ttf
+          weight: 500
+        - asset: assets/fonts/yekan_bakh_regular.ttf
+          weight: 400
+
